@@ -1,0 +1,35 @@
+pick_place:
+  ros__parameters:
+
+    planning_group: "arm_group"
+
+    ee_link: "gripper_base"
+
+    object_id: "target_object"
+
+    # Object location
+    object_x: 0.25
+    object_y: 0.00
+    object_z: 0.05
+
+    # Object dimensions
+    object_size_x: 0.05
+    object_size_y: 0.05
+    object_size_z: 0.05
+
+    # Pick/place behaviour
+    approach_height: 0.12
+    lift_height: 0.18
+
+    # Random drop area
+    random_x_min: 0.15
+    random_x_max: 0.35
+
+    random_y_min: -0.20
+    random_y_max: 0.20
+
+    place_height: 0.06
+
+    # Gripper
+    gripper_open_position: 0.0
+    gripper_closed_position: 0.7

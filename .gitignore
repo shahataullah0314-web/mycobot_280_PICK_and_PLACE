@@ -1,0 +1,29 @@
+# Build and install directories
+build/
+install/
+log/
+*.egg-info/
+dist/
+*.o
+*.a
+*.so
+*.pyc
+__pycache__/
+.pytest_cache/
+
+# ROS specific
+devel/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Dependencies
+.colcon/
